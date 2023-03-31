@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbox1{
+    /* border: 2px solid red; */
+    height: 600px;
+    background-image: url("images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 150px;
+}
+
+.logo-nav{
+    /* border: 1px solid black; */
+    height: 80px;
+    /* margin-top: 0px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 200px;
+    background-image: url("images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav{
+    /* border: 2px solid blue; */
+    height: 40px;
+    width: 400px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.nav ul a:hover{
+    text-decoration: underline;
+    
+}
+
+.main-text{
+    border: 2px solid white;
+    height: 250px;
+    width: 550px;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.main-text p{
+    font-size: 60px;
+    color: white;
+    
+}
+
+.mainbox2{
+    /* border: 2px solid blue; */
+    height: 1600px;
+    padding: 60px 150px;
+}
+
+.up-box{
+    /* border: 1px solid green; */
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image{
+    /* border: 1px solid yellow; */
+    height: 450px;
+    width: 650px;
+    margin-top: 50px;
+    background-image: url("images/desktop/image-interactive.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.text{
+    /* border: 1px solid red; */
+    height: 180px;
+    width: 400px;
+    margin-top: 320px;
+    /* margin-left: 70px; */
+}
+
+.text h1{
+    font-weight: lighter;
+    font-stretch: extra-expanded;
+}
+
+.text p{
+    font-size: 15px;
+    line-height: 22px;
+    color: hsl(0, 0%, 41%)
+}
+
+.down-box{
+    /* border: 2px solid black; */
+    height: 60%;
+    
+}
+
+.creation-nav{
+    /* border: 1px solid red; */
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.creation{
+    /* border: 1px solid purple; */
+    width: 300px;
+    height: 50px;
+    /* display: flex; */
+    /* align-content: center; */
+    
+}
+
+.creation h1{
+    font-weight: lighter;
+}
+
+.see-all{
+    border: 2px solid black;
+    width: 150px;
+    height:40px;
+    
+}
+
+.see-all a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    word-spacing: 5px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+
+.see-all a:hover{
+    /* padding: 10px; */
+    background-color: black;
+    color: white;
+}
+
+.pic-row1-up{
+    /* border: 1px solid yellow; */
+    height: 387px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pics-up{
+    /* border: 1px solid blueviolet; */
+    width: 20%;
+    height: 100%;
+}
+
+.pic1{
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+.pic1 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;   
+}
+
+
+
+.pic2{
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic2 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.pic3{
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic3 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.pic4{
+    background-image: url("images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic4 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+
+.pic-row2-down{
+    /* border: 1px solid green; */
+    height: 387px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics-down{
+    /* border: 1px solid blueviolet; */
+    width: 20%;
+    height: 100%;
+}
+
+
+.pic5{
+    background-image: url("images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic5 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.pic6{
+    background-image: url("images/desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+.pic6 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.pic7{
+    background-image: url("images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic7 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.pic8{
+    background-image: url("images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic8 h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 280px;
+    font-weight: lighter;
+}
+
+.foot-box{
+    /* border: 1px solid red; */
+    height: 130px;
+    background-color: black;
+    padding: 20px 150px;
+    
+}
+
+.logo2-icons{
+    /* border: 1px solid white; */
+    min-height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2{
+    /* border: 1px solid yellowgreen; */
+    height: 40px;
+    width: 200px;
+    background-image: url("images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icons{
+    /* border: 1px solid blue; */
+    width: 150px;
+    height: 40px;
+    
+}
+
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-copy{
+    /* border: 1px solid yellow; */
+    height: 50%;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 ul{
+    justify-content: space-between;
+}
+
+.copywrite{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 260px;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
