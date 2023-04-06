@@ -82,31 +82,40 @@
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 .image{
     /* border: 1px solid yellow; */
-    height: 450px;
-    width: 650px;
-    margin-top: 50px;
+    height: 400px;
+    width: 2200px;
+    /* margin-top: 50px; */
     background-image: url("images/desktop/image-interactive.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    top: 50px;
     
 }
 
 .text{
     /* border: 1px solid red; */
-    height: 180px;
-    width: 400px;
-    margin-top: 320px;
+    height: 248px;
+    width: 1600px;
+    position: relative;
+    /* margin-top: 320px; */
     /* margin-left: 70px; */
+    top: 205px;
+    right: 100px;
+    padding-left: 50px;
+    background-color: white;
 }
 
 .text h1{
     font-weight: lighter;
     font-stretch: extra-expanded;
+    margin-top: 70px;
 }
 
 .text p{
@@ -176,18 +185,26 @@
     
 }
 
-.pics-up{
-    /* border: 1px solid blueviolet; */
-    width: 20%;
-    height: 100%;
+.pic-row1-up a{
+    text-decoration: none;
+
 }
+.pic-row1-up a:hover{
+    background: whitesmoke;
+      
+}
+
 
 .pic1{
     background-image: url("images/desktop/image-deep-earth.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
+
+
 
 
 
@@ -205,6 +222,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
 
 .pic2 h1{
@@ -219,6 +238,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
 
 .pic3 h1{
@@ -226,6 +247,7 @@
     margin-left: 20px;
     margin-top: 280px;
     font-weight: lighter;
+    
 }
 
 .pic4{
@@ -233,6 +255,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
 
 .pic4 h1{
@@ -240,6 +264,10 @@
     margin-left: 20px;
     margin-top: 280px;
     font-weight: lighter;
+}
+
+.up-pics:hover{
+    opacity: 25%;
 }
 
 
@@ -251,11 +279,7 @@
     justify-content: space-between;
 }
 
-.pics-down{
-    /* border: 1px solid blueviolet; */
-    width: 20%;
-    height: 100%;
-}
+
 
 
 .pic5{
@@ -263,7 +287,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
+
+
 
 .pic5 h1{
     color: white;
@@ -277,6 +305,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
     
 }
 
@@ -293,6 +323,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
 
 .pic7 h1{
@@ -307,6 +339,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 20%;
+    height: 100%;
 }
 
 .pic8 h1{
@@ -314,6 +348,16 @@
     margin-left: 20px;
     margin-top: 280px;
     font-weight: lighter;
+}
+
+.down-pics:hover{
+    opacity: 25%;
+    
+
+}
+
+.down-pics h1:hover{
+    color: black;
 }
 
 .foot-box{
